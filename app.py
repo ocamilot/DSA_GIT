@@ -19,7 +19,7 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 import pandas as pd
-# Load data from csv
+# Load data from csv-
 def load_data():
     # Cargar el archivo CSV en un DataFrame
     df = pd.read_csv("datos_energia.csv")
